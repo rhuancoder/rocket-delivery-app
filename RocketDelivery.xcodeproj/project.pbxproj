@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C81D02BA1160E0031978A /* NavigationBar.swift */; };
 		A77427D02B9FCDD2002C72FF /* RocketDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77427CF2B9FCDD2002C72FF /* RocketDeliveryApp.swift */; };
 		A77427D22B9FCDD2002C72FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77427D12B9FCDD2002C72FF /* ContentView.swift */; };
 		A77427D42B9FCDD3002C72FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77427D32B9FCDD3002C72FF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A73C81D02BA1160E0031978A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		A77427CC2B9FCDD2002C72FF /* RocketDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77427CF2B9FCDD2002C72FF /* RocketDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDeliveryApp.swift; sourceTree = "<group>"; };
 		A77427D12B9FCDD2002C72FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73C81CE2BA115D70031978A /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				A73C81D02BA1160E0031978A /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		A73C81CF2BA115E80031978A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A77427D12B9FCDD2002C72FF /* ContentView.swift */,
+				A77427CF2B9FCDD2002C72FF /* RocketDeliveryApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		A77427C32B9FCDD2002C72FF = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +70,8 @@
 		A77427CE2B9FCDD2002C72FF /* RocketDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				A77427CF2B9FCDD2002C72FF /* RocketDeliveryApp.swift */,
-				A77427D12B9FCDD2002C72FF /* ContentView.swift */,
+				A73C81CF2BA115E80031978A /* App */,
+				A73C81CE2BA115D70031978A /* NavigationBar */,
 				A77427D32B9FCDD3002C72FF /* Assets.xcassets */,
 				A77427D52B9FCDD3002C72FF /* Preview Content */,
 			);
@@ -139,6 +158,7 @@
 			files = (
 				A77427D22B9FCDD2002C72FF /* ContentView.swift in Sources */,
 				A77427D02B9FCDD2002C72FF /* RocketDeliveryApp.swift in Sources */,
+				A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
