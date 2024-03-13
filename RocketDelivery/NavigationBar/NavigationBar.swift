@@ -10,12 +10,21 @@ import SwiftUI
 struct NavigationBar: View {
     var body: some View {
         HStack {
+            Spacer()
+            
             Button("1007 Mountain Drive, Gotham City") {
                 
             }
+            .font(.subheadline)
+            .fontWeight(.semibold)
+            .foregroundColor(.black)
             
-            Button("Notifications") {
-                
+            Spacer()
+            
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Image(systemName: "bell.badge")
+                    .font(.title3)
+                    .foregroundColor(.red)
             }
         }
     }
@@ -23,4 +32,6 @@ struct NavigationBar: View {
 
 #Preview {
     NavigationBar()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }
