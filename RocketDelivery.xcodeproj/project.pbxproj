@@ -12,6 +12,7 @@
 		A77427D22B9FCDD2002C72FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77427D12B9FCDD2002C72FF /* ContentView.swift */; };
 		A77427D42B9FCDD3002C72FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77427D32B9FCDD3002C72FF /* Assets.xcassets */; };
 		A77427D72B9FCDD3002C72FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77427D62B9FCDD3002C72FF /* Preview Assets.xcassets */; };
+		A77939F92BA26F5900748433 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77939F82BA26F5900748433 /* OrderTypeGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A77427D12B9FCDD2002C72FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77427D32B9FCDD3002C72FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77427D62B9FCDD3002C72FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A77939F82BA26F5900748433 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				A73C81CF2BA115E80031978A /* App */,
 				A73C81CE2BA115D70031978A /* NavigationBar */,
+				A77939F72BA26F3900748433 /* GridView */,
 				A77427D32B9FCDD3002C72FF /* Assets.xcassets */,
 				A77427D52B9FCDD3002C72FF /* Preview Content */,
 			);
@@ -84,6 +87,14 @@
 				A77427D62B9FCDD3002C72FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A77939F72BA26F3900748433 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				A77939F82BA26F5900748433 /* OrderTypeGridView.swift */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77427D22B9FCDD2002C72FF /* ContentView.swift in Sources */,
+				A77939F92BA26F5900748433 /* OrderTypeGridView.swift in Sources */,
 				A77427D02B9FCDD2002C72FF /* RocketDeliveryApp.swift in Sources */,
 				A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */,
 			);
