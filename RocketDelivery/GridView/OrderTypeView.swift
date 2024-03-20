@@ -19,6 +19,7 @@ struct OrderTypeView: View {
                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
             Text(orderType.name)
                 .font(.system(size: 10))
+                .fontWeight(.semibold)
         }
         .frame(width: 70, height: 100)
     }
