@@ -15,6 +15,7 @@
 		A77427D42B9FCDD3002C72FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77427D32B9FCDD3002C72FF /* Assets.xcassets */; };
 		A77427D72B9FCDD3002C72FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77427D62B9FCDD3002C72FF /* Preview Assets.xcassets */; };
 		A77939F92BA26F5900748433 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77939F82BA26F5900748433 /* OrderTypeGridView.swift */; };
+		A7E9B4B42BAB82290014FD75 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9B4B32BAB82290014FD75 /* OrderTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A77427D32B9FCDD3002C72FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77427D62B9FCDD3002C72FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A77939F82BA26F5900748433 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		A7E9B4B32BAB82290014FD75 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A77939F82BA26F5900748433 /* OrderTypeGridView.swift */,
+				A7E9B4B32BAB82290014FD75 /* OrderTypeView.swift */,
 			);
 			path = GridView;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				A76D434B2BAA4F260067B242 /* OrderType.swift in Sources */,
 				A77427D22B9FCDD2002C72FF /* ContentView.swift in Sources */,
 				A76D434D2BAA4F9D0067B242 /* DataSourceMock.swift in Sources */,
+				A7E9B4B42BAB82290014FD75 /* OrderTypeView.swift in Sources */,
 				A77939F92BA26F5900748433 /* OrderTypeGridView.swift in Sources */,
 				A77427D02B9FCDD2002C72FF /* RocketDeliveryApp.swift in Sources */,
 				A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */,
