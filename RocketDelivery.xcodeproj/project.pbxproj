@@ -10,6 +10,7 @@
 		A7116B5A2BAE0058005B326C /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7116B592BAE0058005B326C /* CarouselTabView.swift */; };
 		A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C81D02BA1160E0031978A /* NavigationBar.swift */; };
 		A744C0DA2BB7417B00A8E5A7 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744C0D92BB7417B00A8E5A7 /* StoreItemView.swift */; };
+		A744C0DC2BB7448200A8E5A7 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744C0DB2BB7448200A8E5A7 /* StoresContainerView.swift */; };
 		A76D434B2BAA4F260067B242 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D434A2BAA4F260067B242 /* OrderType.swift */; };
 		A76D434D2BAA4F9D0067B242 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D434C2BAA4F9D0067B242 /* DataSourceMock.swift */; };
 		A77427D02B9FCDD2002C72FF /* RocketDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77427CF2B9FCDD2002C72FF /* RocketDeliveryApp.swift */; };
@@ -25,6 +26,7 @@
 		A7116B592BAE0058005B326C /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		A73C81D02BA1160E0031978A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		A744C0D92BB7417B00A8E5A7 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		A744C0DB2BB7448200A8E5A7 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		A76D434A2BAA4F260067B242 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		A76D434C2BAA4F9D0067B242 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		A77427CC2B9FCDD2002C72FF /* RocketDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				A744C0D92BB7417B00A8E5A7 /* StoreItemView.swift */,
+				A744C0DB2BB7448200A8E5A7 /* StoresContainerView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				A7B4C4432BAC775A005748D1 /* CarouselItemView.swift in Sources */,
 				A77427D22B9FCDD2002C72FF /* ContentView.swift in Sources */,
 				A76D434D2BAA4F9D0067B242 /* DataSourceMock.swift in Sources */,
+				A744C0DC2BB7448200A8E5A7 /* StoresContainerView.swift in Sources */,
 				A7E9B4B42BAB82290014FD75 /* OrderTypeView.swift in Sources */,
 				A744C0DA2BB7417B00A8E5A7 /* StoreItemView.swift in Sources */,
 				A77939F92BA26F5900748433 /* OrderTypeGridView.swift in Sources */,
