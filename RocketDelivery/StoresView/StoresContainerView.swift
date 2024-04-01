@@ -12,13 +12,22 @@ struct StoresContainerView: View {
     let title = "Stores"
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(title)
                 .font(.headline)
+            
+            VStack(alignment: .leading, spacing: 30) {
+                ForEach(storesMock) { store in
+                    StoreItemView(order: store)
+                }
+                
+            }
         }
+        .padding(20)
     }
 }
 
 #Preview {
     StoresContainerView()
+        .previewLayout(.sizeThatFits)
 }
