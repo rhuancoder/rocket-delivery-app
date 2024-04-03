@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7115C412BBE1B9C00F66DE6 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7115C402BBE1B9C00F66DE6 /* StoreDetailView.swift */; };
 		A7116B5A2BAE0058005B326C /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7116B592BAE0058005B326C /* CarouselTabView.swift */; };
 		A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C81D02BA1160E0031978A /* NavigationBar.swift */; };
 		A744C0DA2BB7417B00A8E5A7 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744C0D92BB7417B00A8E5A7 /* StoreItemView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7115C402BBE1B9C00F66DE6 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 		A7116B592BAE0058005B326C /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		A73C81D02BA1160E0031978A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		A744C0D92BB7417B00A8E5A7 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				A744C0D92BB7417B00A8E5A7 /* StoreItemView.swift */,
 				A744C0DB2BB7448200A8E5A7 /* StoresContainerView.swift */,
+				A7115C402BBE1B9C00F66DE6 /* StoreDetailView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				A744C0DC2BB7448200A8E5A7 /* StoresContainerView.swift in Sources */,
 				A7E9B4B42BAB82290014FD75 /* OrderTypeView.swift in Sources */,
 				A744C0DA2BB7417B00A8E5A7 /* StoreItemView.swift in Sources */,
+				A7115C412BBE1B9C00F66DE6 /* StoreDetailView.swift in Sources */,
 				A77939F92BA26F5900748433 /* OrderTypeGridView.swift in Sources */,
 				A77427D02B9FCDD2002C72FF /* RocketDeliveryApp.swift in Sources */,
 				A73C81D12BA1160E0031978A /* NavigationBar.swift in Sources */,
