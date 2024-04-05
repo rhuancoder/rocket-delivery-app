@@ -21,7 +21,7 @@ struct StoresContainerView: View {
                     NavigationLink {
                         StoreDetailView(store: store)
                     } label: {
-                        StoreItemView(order: store)
+                        StoreItemView(store: store)
                     }
                 }
             }
