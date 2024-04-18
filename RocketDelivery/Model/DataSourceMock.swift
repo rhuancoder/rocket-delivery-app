@@ -23,14 +23,14 @@ let storesMock: [StoreType] = [
         name: "Monstro Burger",
         logoImage: "monstro-burger-logo",
         headerImage: "monstro-burger-header",
-        location: "Rua Principal, 123, São Paulo, SP",
+        location: "R274 Bernier Extension, Bryanshire, NV",
         stars: 4,
         products: [
-            ProductType(id: 1, name: "Classic Burger", description: "Hambúrguer de carne com queijo, alface e tomate", image: "classic_burger", price: 14.99),
-            ProductType(id: 2, name: "Hambúrguer com Bacon", description: "Hambúrguer de carne com queijo, bacon crocante, alface e tomate", image: "bacon_burger", price: 16.99),
-            ProductType(id: 3, name: "Batatas Fritas", description: "Porção de batatas fritas crocantes", image: "fries", price: 5.99),
-            ProductType(id: 4, name: "Soda", description: "Lata de refrigerante de 355ml", image: "soda", price: 3.99),
-            ProductType(id: 5, name: "Vanilla Ice Cream", description: "Copo de sorvete de baunilha", image: "vanilla_ice_cream", price: 4.99),
+            ProductType(id: 1, name: "Classic Burger", description: "Beef burger with cheese, lettuce and tomato", image: "classic_burger", price: 14.99),
+            ProductType(id: 2, name: "Burger with Bacon", description: "Beef burger with cheese, crispy bacon, lettuce and tomato", image: "bacon_burger", price: 16.99),
+            ProductType(id: 3, name: "French fries", description: "Portion of crispy fries", image: "fries", price: 5.99),
+            ProductType(id: 4, name: "Soda", description: "355ml soda can", image: "soda", price: 3.99),
+            ProductType(id: 5, name: "Vanilla Ice Cream", description: "Cup of vanilla ice cream", image: "vanilla_ice_cream", price: 4.99),
         ]
     ),
     StoreType(
@@ -38,14 +38,14 @@ let storesMock: [StoreType] = [
         name: "Food Court",
         logoImage: "food-court-logo",
         headerImage: "food-court-header",
-        location: "Avenida Secundária, 456, São Paulo, SP",
+        location: "2406 Rowe Square, West Viki, CO",
         stars: 4,
         products: [
-            ProductType(id: 6, name: "Pizza Margherita", description: "Pizza com molho de tomate, queijo mozzarella e manjericão", image: "margherita_pizza", price: 18.99),
-            ProductType(id: 7, name: "Pizza Pepperoni", description: "Pizza com molho de tomate, queijo mozzarella e pepperoni", image: "pepperoni_pizza", price: 19.99),
-            ProductType(id: 8, name: "Pizza Quatro Queijos", description: "Pizza com queijo mozzarella, provolone, parmesão e gorgonzola", image: "four_cheeses_pizza", price: 21.99),
-            ProductType(id: 9, name: "Lasanha à Bolonhesa", description: "Lasanha com molho à bolonhesa, queijo e béchamel", image: "lasagna", price: 22.99),
-            ProductType(id: 10, name: "Espaguete à Carbonara", description: "Espaguete com molho carbonara", image: "spaghetti_carbonara", price: 20.99)
+            ProductType(id: 6, name: "Margherita Pizza", description: "Pizza with tomato sauce, mozzarella cheese and basil", image: "margherita_pizza", price: 18.99),
+            ProductType(id: 7, name: "Pepperoni Pizza", description: "Pizza with tomato sauce, mozzarella cheese and pepperoni", image: "pepperoni_pizza", price: 19.99),
+            ProductType(id: 8, name: "Four Cheeses Pizza", description: "Pizza with mozzarella, provolone, parmesan and gorgonzola cheese", image: "four_cheeses_pizza", price: 21.99),
+            ProductType(id: 9, name: "Lasagna Bolognese", description: "Lasagna with bolognese sauce, cheese and béchamel", image: "lasagna", price: 22.99),
+            ProductType(id: 10, name: "Spaghetti Carbonara", description: "Spaghetti with carbonara sauce", image: "spaghetti_carbonara", price: 20.99)
         ]
     ),
     StoreType(
@@ -53,14 +53,14 @@ let storesMock: [StoreType] = [
         name: "Carbron",
         logoImage: "carbron-logo",
         headerImage: "carbron-header",
-        location: "Rua Terceira, 789, São Paulo, SP",
+        location: "84163 Bernita Mission, Lake Hedwigburgh, MT",
         stars: 4,
         products: [
-            ProductType(id: 11, name: "Picanha", description: "Picanha grelhada servida com arroz, farofa e vinagrete", image: "picanha", price: 29.99),
-            ProductType(id: 12, name: "Costela no bafo", description: "Deliciosa costela assada lentamente, servida com batatas", image: "ribs", price: 26.99),
-            ProductType(id: 13, name: "Fraldinha", description: "Fraldinha grelhada servida com arroz, farofa e vinagrete", image: "fraldinha", price: 27.99),
-            ProductType(id: 14, name: "Maminha", description: "Maminha grelhada servida com arroz, farofa e vinagrete", image: "maminha", price: 28.99),
-            ProductType(id: 15, name: "Churrasco Misto", description: "Churrasco misto com linguiça, frango e carne bovina, servido com arroz, farofa e vinagrete", image: "mixed_grill", price: 34.99)
+            ProductType(id: 11, name: "Rump Cover", description: "Grilled rump cover served with rice, farofa and vinaigrette", image: "rump_cover", price: 29.99),
+            ProductType(id: 12, name: "Braised Ribs", description: "Delicious slow-roasted prime rib served with potatoes", image: "ribs", price: 26.99),
+            ProductType(id: 13, name: "Flank Steak", description: "Grilled flank steak served with rice, farofa and vinaigrette", image: "flank_steak", price: 27.99),
+            ProductType(id: 14, name: "Rump Tail", description: "Grilled rump tail served with rice, farofa and vinaigrette", image: "rump_tail", price: 28.99),
+            ProductType(id: 15, name: "Mixed Grill", description: "Mixed barbecue with sausage, chicken and beef, served with rice, farofa and vinaigrette", image: "mixed_grill", price: 34.99)
         ]
     ),
     StoreType(
@@ -68,14 +68,14 @@ let storesMock: [StoreType] = [
         name: "Bakery",
         logoImage: "bakery-logo",
         headerImage: "bakery-header",
-        location: "Rua Quarta, 159, São Paulo, SP",
+        location: "95415 Wendell Rapids, Port Wilbur, VA",
         stars: 3,
         products: [
-            ProductType(id: 16, name: "Pão Francês", description: "Pão francês fresquinho", image: "french_bread", price: 0.50),
-            ProductType(id: 17, name: "Croissant", description: "Croissant folhado", image: "croissant", price: 2.99),
-            ProductType(id: 18, name: "Rosca Doce", description: "Rosca doce com cobertura de açúcar", image: "sweet_bread", price: 3.99),
-            ProductType(id: 19, name: "Bolo de Chocolate", description: "Fatia de bolo de chocolate", image: "chocolate_cake_slice", price: 4.99),
-            ProductType(id: 20, name: "Café", description: "Café quente", image: "coffee", price: 1.99)
+            ProductType(id: 16, name: "French Bread", description: "Fresh french bread", image: "french_bread", price: 0.50),
+            ProductType(id: 17, name: "Croissant", description: "Puff pastry croissant", image: "croissant", price: 2.99),
+            ProductType(id: 18, name: "Sweet Bread", description: "Sugar-coated sweet bread", image: "sweet_bread", price: 3.99),
+            ProductType(id: 19, name: "Chocolate Cake", description: "Slice of chocolate cake", image: "chocolate_cake_slice", price: 4.99),
+            ProductType(id: 20, name: "Coffee", description: "Hot coffee", image: "coffee", price: 1.99)
         ]
     ),
     StoreType(
@@ -83,14 +83,14 @@ let storesMock: [StoreType] = [
         name: "Açaí Panda",
         logoImage: "acai-panda-logo",
         headerImage: "acai-panda-header",
-        location: "Avenida Quinta, 753, São Paulo, SP",
+        location: "540 Coralee Ridge, South Verla, NM",
         stars: 4,
         products: [
-            ProductType(id: 21, name: "Açaí Pequeno", description: "Açaí na tigela de 300ml com granola e banana", image: "small_acai", price: 8.99),
-            ProductType(id: 22, name: "Açaí Médio", description: "Açaí na tigela de 500ml com granola, banana e leite condensado", image: "medium_acai", price: 10.99),
-            ProductType(id: 23, name: "Açaí Grande", description: "Açaí na tigela de 700ml com granola, banana, leite condensado e morangos", image: "large_acai", price: 13.99),
-            ProductType(id: 24, name: "Smoothie de Morango", description: "Smoothie de morango feito com iogurte natural", image: "strawberry_smoothie", price: 6.99),
-            ProductType(id: 25, name: "Smoothie de Banana e Cacau", description: "Smoothie de banana e cacau feito com iogurte natural", image: "banana_cocoa_smoothie", price: 6.99)
+            ProductType(id: 21, name: "Small Acai", description: "Acai in a 300ml bowl with granola and banana", image: "small_acai", price: 8.99),
+            ProductType(id: 22, name: "Medium Acai", description: "Acai in a 500ml bowl with granola, banana and condensed milk", image: "medium_acai", price: 10.99),
+            ProductType(id: 23, name: "Large Acai", description: "Acai in a 700ml bowl with granola, banana, condensed milk and strawberries", image: "large_acai", price: 13.99),
+            ProductType(id: 24, name: "Strawberry Smoothie", description: "Strawberry smoothie made with natural yogurt", image: "strawberry_smoothie", price: 6.99),
+            ProductType(id: 25, name: "Banana and Cocoa Smoothie", description: "Banana and cocoa smoothie made with natural yogurt", image: "banana_cocoa_smoothie", price: 6.99)
         ]
     ),
 ]
