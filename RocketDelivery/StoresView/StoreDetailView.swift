@@ -10,6 +10,7 @@ import SwiftUI
 struct StoreDetailView: View {
     
     let store: StoreType
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         ScrollView(showsIndicators: false) {
@@ -74,6 +75,21 @@ struct StoreDetailView: View {
                 }
             }
             .navigationTitle(store.name)
+            .navigationBarBackButtonHidden()
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button{
+                        presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        HStack(spacing: 4) {
+                            Image(systemName: "cart")
+                            
+                            Text("Stores")
+                        }
+                        .foregroundColor(.colorRed)
+                    }
+                }
+            }
         }
     }
 }
