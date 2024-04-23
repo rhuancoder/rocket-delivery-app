@@ -24,6 +24,7 @@ struct ProductDetailView: View {
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .bold()
                     .padding(.horizontal)
+                    .padding(.top)
                 
                 Text(product.description)
                     .padding(.horizontal)
