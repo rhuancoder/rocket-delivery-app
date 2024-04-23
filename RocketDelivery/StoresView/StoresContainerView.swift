@@ -28,6 +28,15 @@ struct StoresContainerView: View {
                 Spacer()
                 
                 Menu("Filter") {
+                    
+                    Button {
+                        ratingFilter = 0
+                    } label: {
+                        Text("Clean filter")
+                    }
+                    
+                    Divider()
+
                     ForEach(1...5, id: \.self) { rating in
                         Button {
                             ratingFilter = rating
@@ -47,7 +56,7 @@ struct StoresContainerView: View {
                 
                 if filteredStores.isEmpty {
                     Text("No results found.")
-                        .font(.title2)
+                        .font(.title3)
                         .bold()
                         .foregroundColor(.colorRed)
                         .padding(.vertical, 32)
