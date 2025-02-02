@@ -11,6 +11,7 @@ struct HomeView: View {
     
     @State private var isAnimating = false
     @State private var imageOffset: CGSize = .zero
+    let buttonHeight: CGFloat = 80
     
     var body: some View {
         GeometryReader { geometry in
@@ -68,6 +69,41 @@ struct HomeView: View {
                                     }
                                 })
                         )
+                    
+                    ZStack {
+                        Capsule()
+                            .fill(.colorRed.opacity(0.2))
+                        
+                        Capsule()
+                            .fill(.colorRed.opacity(0.2))
+                            .padding(8)
+                        
+                        Text("Discover more")
+                            .font(.title2)
+                            .bold()
+                            .foregroundStyle(.colorRedDark)
+                            .offset(x: 20)
+                        
+                        HStack {
+                            ZStack {
+                                Circle()
+                                    .fill(.colorRed)
+                                
+                                Circle()
+                                    .fill(.colorRedDark)
+                                    .padding(8)
+                                
+                                Image(systemName: "chevron.right.2")
+                                    .font(.system(size: 24))
+                                    .bold()
+                                    .foregroundStyle(.white)
+                            }
+                            
+                            Spacer()
+                        }
+                    }
+                    .frame(width: geometry.size.width - 60,
+                           height: buttonHeight)
                 }
                 .onAppear {
                     withAnimation(.easeInOut(duration: 4)) {
