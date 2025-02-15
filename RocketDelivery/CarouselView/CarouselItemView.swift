@@ -18,8 +18,7 @@ struct CarouselItemView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     CarouselItemView(order: OrderType(id: 1, name: "", image: "barbecue-banner"))
-        .previewLayout(.sizeThatFits)
         .padding()
 }

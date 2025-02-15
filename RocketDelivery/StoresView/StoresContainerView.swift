@@ -79,7 +79,6 @@ struct StoresContainerView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     StoresContainerView()
-        .previewLayout(.sizeThatFits)
 }

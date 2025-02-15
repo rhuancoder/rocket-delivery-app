@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    private var service = HomeService()
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {
@@ -25,34 +27,11 @@ struct ContentView: View {
             }
         }
         .onAppear {
-            fetchData()
+            service.fetchData()
         }
-    }
-    
-    // MARK: - Methods
-    
-    func fetchData() {
-        guard let url = URL(string: "YOUR API URL HERE") else {
-            return
-        }
-        
-        URLSession.shared.dataTask(with: url) { data, _, error in
-            if let error = error {
-                print(error.localizedDescription)
-            }
-            else if let data = data {
-                do {
-                    let response = try JSONSerialization.jsonObject(with: data) as? [[String: Any]]
-                    print(response)
-                } catch {
-                    print(error.localizedDescription)
-                }
-            }
-        }.resume()
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     ContentView()
-        .previewLayout(.sizeThatFits)
 }

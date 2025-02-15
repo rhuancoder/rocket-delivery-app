@@ -26,7 +26,6 @@ struct StoreItemView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     StoreItemView(store: storesMock[0])
-        .previewLayout(.sizeThatFits)
 }
