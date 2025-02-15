@@ -30,8 +30,7 @@ struct NavigationBar: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     NavigationBar()
-        .previewLayout(.sizeThatFits)
         .padding()
 }
