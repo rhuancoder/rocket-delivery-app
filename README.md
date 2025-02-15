@@ -53,4 +53,6 @@ With the project open in Xcode, you can view all the folders and files.
 To run the project, click the play button at the top of Xcode. You can also change the simulator where the app will be displayed, and then the project will open in your preferred simulator.
 
 
-*Learned with Alura.* ❤️
+
+
+*Learned with Alura* ❤️
