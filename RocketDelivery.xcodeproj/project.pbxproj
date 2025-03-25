@@ -32,6 +32,7 @@
 		A7A46FBC2BCB1A7F00AFF17C /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A46FBB2BCB1A7F00AFF17C /* Double+.swift */; };
 		A7A9AC4C2D60D4A5002E4D3C /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9AC4B2D60D495002E4D3C /* HomeService.swift */; };
 		A7B4C4432BAC775A005748D1 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4C4422BAC775A005748D1 /* CarouselItemView.swift */; };
+		A7E604802D92291D007BAF79 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A7E6047F2D92291D007BAF79 /* Alamofire */; };
 		A7E9B4B42BAB82290014FD75 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9B4B32BAB82290014FD75 /* OrderTypeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E604802D92291D007BAF79 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +267,9 @@
 				Base,
 			);
 			mainGroup = A77427C32B9FCDD2002C72FF;
+			packageReferences = (
+				A7E6047E2D92291D007BAF79 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A77427CD2B9FCDD2002C72FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -520,6 +525,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7E6047E2D92291D007BAF79 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7E6047F2D92291D007BAF79 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7E6047E2D92291D007BAF79 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A77427C42B9FCDD2002C72FF /* Project object */;
 }
